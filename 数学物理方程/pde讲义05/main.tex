@@ -1,0 +1,173 @@
+% A book summary template inspired by Jan Küster's Left Sidebar CV / https://github.com/jankapunkt/latexcv
+
+\documentclass[11pt,a4paper]{ctexart}	
+\usepackage[utf8]{inputenc}	
+\usepackage{pdfpages}
+
+% some tex-live fonts - choose your own
+
+%\usepackage[defaultsans]{droidsans}
+%\usepackage[default]{comfortaa}
+%\usepackage{cmbright}
+\usepackage[default]{raleway}
+%\usepackage{fetamont}
+%\usepackage[default]{gillius}
+%\usepackage[light,math]{iwona}
+%\usepackage[thin]{roboto}
+
+% set font default
+\renewcommand*\familydefault{\sfdefault} 	
+\usepackage[T1]{fontenc}
+
+\usepackage{moresize}
+\usepackage{fontawesome}
+
+\usepackage{paracol}
+\usepackage[margin=1.5cm]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{empty}
+\setlength{\parindent}{0mm}
+\usepackage{graphicx}
+	
+\usepackage{tikz}				
+\usetikzlibrary{shapes, backgrounds,mindmap, trees}
+
+\usepackage{transparent}
+\usepackage{color}
+
+\definecolor{maincol}{RGB}{ 225, 0, 0 }
+\definecolor{darkcol}{RGB}{ 70, 70, 70 }
+\definecolor{lightcol}{RGB}{245,245,245}
+
+\usepackage{enumitem}
+\setitemize{label={\color{maincol}\faCheck}}
+
+\usepackage[hidelinks]{hyperref}
+\include{kuestercvelements}
+
+
+%============================================================================%
+\begin{document}
+
+\columnratio{0.8}
+\setlength{\columnsep}{2.2em}
+\setlength{\columnseprule}{0.2pt}
+\colseprulecolor{darkcol}
+\begin{paracol}{2}
+
+%\includegraphics[width=\linewidth]{bookcover.jpg}
+
+
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=\linewidth]{figure1.jpg}
+    %\caption{Graph illustrating how far you can go with the same amount of energy if invested deliberately in just one thing versus diffusion}
+%    \label{fig:my_label}
+%\end{figure}
+
+
+
+
+
+\normalsize
+
+
+% \titlebox{white}{darkcol}{
+% \bigfont{数分习题课讲义}
+
+% \titletext{第01章 引论}
+
+% }
+% \vspace{1em}
+
+%---------------------------------------------------------------------------------------
+\heading{第五章~~二阶线性偏微分方程的分类}
+
+%\includegraphics[width=\linewidth]{figure01.png}
+\includegraphics[width=\linewidth]{chap05_09.png}
+\includegraphics[width=\linewidth]{chap05_10.png}
+\includegraphics[width=\linewidth]{chap05_11.png}
+\newpage
+%\heading{2.1.5练习题}
+\includegraphics[width=\linewidth]{chap05_12.png}
+\includegraphics[width=\linewidth]{chap05_13.png}
+\includegraphics[width=\linewidth]{chap05_14.png}
+
+\newpage
+%\heading{2.2.1思考题}
+
+\includegraphics[width=\linewidth]{chap05_15.png}
+\includegraphics[width=\linewidth]{chap05_16.png}
+\includegraphics[width=\linewidth]{chap05_17.png}
+\newpage
+%\heading{2.2.4练习题}
+
+\includegraphics[width=\linewidth]{chap05_18.png}
+\includegraphics[width=\linewidth]{chap05_19.png}
+\includegraphics[width=\linewidth]{chap05_20.png}
+\newpage
+%\heading{2.3.2练习题}
+
+\includegraphics[width=\linewidth]{chap05_21.png}
+\includegraphics[width=\linewidth]{chap05_22.png}
+\includegraphics[width=\linewidth]{chap05_23.png}
+\newpage
+%\heading{2.4.3练习题}
+
+\includegraphics[width=\linewidth]{chap05_24.png}
+\includegraphics[width=\linewidth]{chap05_25.png}
+\includegraphics[width=\linewidth]{chap05_26.png}
+\newpage
+%\heading{2.5.5练习题}
+
+\includegraphics[width=\linewidth]{chap05_27.png}
+\includegraphics[width=\linewidth]{chap05_28.png}
+\includegraphics[width=\linewidth]{chap05_29.png}
+\newpage
+%\heading{2.6.3练习题}
+
+\includegraphics[width=\linewidth]{chap05_30.png}
+\includegraphics[width=\linewidth]{chap05_31.png}
+\includegraphics[width=\linewidth]{chap05_32.png}
+\newpage
+%\heading{2.7.3第1组参考题}
+
+\includegraphics[width=\linewidth]{chap05_33.png}
+\includegraphics[width=\linewidth]{chap05_34.png}
+\includegraphics[width=\linewidth]{chap05_35.png}
+\newpage
+%\heading{2.7.3第1组参考题}
+
+\includegraphics[width=\linewidth]{chap05_36.png}
+\includegraphics[width=\linewidth]{chap05_37.png}
+\includegraphics[width=\linewidth]{chap05_38.png}
+\newpage
+
+
+% \begin{figure}[h]
+%    \centering
+%    \includegraphics[width=\linewidth]{figure01.png}
+% \end{figure}
+
+% \begin{figure}[h]
+%    \centering
+%    \includegraphics[width=\linewidth]{figure02.png}
+% \end{figure}
+
+\small
+\switchcolumn
+
+\heading{笔记区}
+\newpage
+
+
+
+\end{paracol}
+
+
+
+
+
+\end{document}
+
